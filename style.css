@@ -92,7 +92,14 @@ body {
 	margin-top: 27px;
 	margin-left: 80px;
 	color: #333232;
-	font-style: normal;
+	font-weight: normal;
 	border-bottom: solid 0.5px #ccc;
 	width: 990px;
+}
+
+#views {
+	padding-top: 30px;
+	font-size: 14px;
+	padding-bottom: 10px;
+	font-weight: normal;
 }
