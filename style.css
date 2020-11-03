@@ -9,7 +9,6 @@ body {
 		Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	font-style: normal;
 	font-size: 16px;
-	font-weight: 600;
 	background: #f9f9f9;
 }
 
@@ -89,11 +88,11 @@ body {
 	margin-left: 80px;
 }
 
-.video-description {
+.video-title {
 	margin-top: 27px;
 	margin-left: 80px;
 	color: #333232;
-	font-weight: normal;
+	font-style: normal;
 	border-bottom: solid 0.5px #ccc;
 	width: 990px;
 }
@@ -119,4 +118,89 @@ body {
 #like,
 #dislike {
 	text-decoration: underline;
+}
+
+.video-description {
+	margin-top: 20px;
+	margin-left: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 990px;
+}
+
+#description {
+	margin-top: 20px;
+	margin-left: 190px;
+	width: 610px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+
+#user-profile-picture {
+	border-radius: 50%;
+	width: 60px;
+	margin-left: 20px;
+}
+
+#profile-name {
+	margin-left: -35px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+#subscribers {
+	margin-top: 30px;
+	margin-left: -185px;
+}
+
+#subscribe-button {
+	background-color: #ececec;
+	color: #606060;
+	padding: 10px;
+	border: none;
+	border-radius: 3px;
+	font-size: 14px;
+	height: 40px;
+	margin-left: 490px;
+}
+
+#notification-bell {
+	margin-top: 10px;
+	width: 20px;
+}
+
+.comments {
+	padding-top: 17px;
+	margin-left: 80px;
+	border-top: solid 0.5px #ccc;
+	width: 990px;
+	padding-bottom: 50px;
+}
+
+#comment-count p {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.comments {
+	display: inline-block;
+}
+
+#user-profile {
+	border-radius: 50%;
+	width: 100px;
+	margin-left: 30px;
+	padding-top: 20px;
+}
+
+#comment {
+	margin-left: 70px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	background: #f9f9f9;
+	width: 930px;
+	height: 40px;
+	font-size: 16px;
 }
