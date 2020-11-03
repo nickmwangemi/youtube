@@ -87,3 +87,12 @@ body {
 	margin-top: 27px;
 	margin-left: 80px;
 }
+
+.video-description {
+	margin-top: 27px;
+	margin-left: 80px;
+	color: #333232;
+	font-style: normal;
+	border-bottom: solid 0.5px #ccc;
+	width: 990px;
+}
