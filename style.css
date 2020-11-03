@@ -82,3 +82,8 @@ body {
 	color: #7f7f7f;
 	font-size: 20px;
 }
+
+.video-container {
+	margin-top: 27px;
+	margin-left: 80px;
+}
